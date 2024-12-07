@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url('background.png');
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center; /* L'image est centrée */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-attachment: fixed; /* Rend l'image fixe */
+}
+
+section {
+    width: 1344px;
+    height: 888px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1,h2{
+    color:black;
+    padding: 30px;
+}
+#blanc{
+    width: 935px;
+    height:524px ;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.produit{
+width: 370px;
+height: 332px;
+border-radius: 12px;
+}
+
+.details{
+width: 279px;
+height: 332px;
+ 
+}
+.haut{
+   display: block;
+}
